@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 /** 
  * @author Jon K. Spindler
- * @dev Notes on solidity midifiers
+ * @dev Notes on solidity events
  */
 contract MyEvents {
 
