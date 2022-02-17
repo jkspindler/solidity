@@ -15,8 +15,7 @@ contract MyModifier {
         owner = address(msg.sender);
     }
     
-    modifier isNotPaused(bool _bypass) {
-        if(_bypass == true);
+    modifier isNotPaused() {
         require(paused == false, "Contract is paused");
         _; // This means code executes after modifier
     }
